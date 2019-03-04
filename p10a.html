@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>Mi práctica 10a</title>
+ </head>
+ <body>
+	<form action="/action_page.php">
+	  <div>
+		<label for="cp">Código postal:</label>
+		<input type="text" name="cp" value="">
+	  </div>
+	  <div>
+	  <label>Nivel de satisfacción:</label>
+	  <input type="radio" name="sat" value="1">1 <input type="radio" name="sat" value="2">2 <input type="radio" name="sat" value="3">3 <input type="radio" name="sat" value="4">4 <input type="radio" name="sat" value="5">5
+	  </div>
+	  <div>
+		<label for="mail">Email de contacto:</label>
+		<input type="email" name="mail">
+	  </div>
+	  <div>
+		<label for="positivo">Explica los puntos positivos del producto:</label>
+		<textarea name="positivo" rows="4" cols="50"></textarea>
+	  </div>
+	  <div>
+		<label for="negativo">Explica los puntos negativos del producto:</label>
+		<textarea name="negativo" rows="4" cols="50"></textarea>
+	  </div>
+	  <div>
+		<p><b>¿Cómo calificarías al producto en las siguientes cualidades?</b></p><br>
+		<label>Calidad/precio</label>
+		 <select>
+			<option value="blank">Elige una opción</option>
+			<option value="pesimo">Pésimo</option>
+			<option value="regular">Regular</option>
+			<option value="bueno">Bueno</option>
+			<option value="excelente">Excelente</option>
+		</select><br>
+		<input type="radio" name="cal" value="pesimo"> Pésimo<br>
+		<input type="radio" name="cal" value="regular"> Regular<br>
+		<input type="radio" name="cal" value="bueno"> Bueno<br>
+		<input type="radio" name="cal" value="excelente"> Excelente<br>
+		
+		<label>Diseño</label>
+		 <select>
+			<option value="blank">Elige una opción</option>
+			<option value="pesimo">Pésimo</option>
+			<option value="regular">Regular</option>
+			<option value="bueno">Bueno</option>
+			<option value="excelente">Excelente</option>
+		</select><br>
+		<input type="radio" name="dis" value="pesimo"> Pésimo<br>
+		<input type="radio" name="dis" value="regular"> Regular<br>
+		<input type="radio" name="dis" value="bueno"> Bueno<br>
+		<input type="radio" name="dis" value="excelente"> Excelente<br>
+		
+		<label>Comodidad</label>
+		 <select>
+			<option value="blank">Elige una opción</option>
+			<option value="pesimo">Pésimo</option>
+			<option value="regular">Regular</option>
+			<option value="bueno">Bueno</option>
+			<option value="excelente">Excelente</option>
+		</select><br>
+		<input type="radio" name="com" value="pesimo"> Pésimo<br>
+		<input type="radio" name="com" value="regular"> Regular<br>
+		<input type="radio" name="com" value="bueno"> Bueno<br>
+		<input type="radio" name="com" value="excelente"> Excelente<br>
+	  </div>
+	  <input type="submit" value="Enviar">
+	</form>
+ </body>
+</html>
